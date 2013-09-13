@@ -1,1 +1,5 @@
-Hello {{ name }}!
+{% extends 'MainBundle::layout.html.twig' %}
+{% block content %}
+    HELLO {{ name }}<br>
+    {{ knp_menu_render('main', {'depth': 2, 'currentAsLink': false}) }}
+{% endblock %}

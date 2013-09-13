@@ -35,5 +35,5 @@ _sonata_admin:
     prefix: /admin
 
 # error-prevention
-homepage:
-    pattern: /
+#homepage:
+#    pattern: /
